@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie1</title>
+</head>
+<style>
+  .flex-container {
+    display: flex;
+    border: 2px solid;
+    padding: 25px;
+  }
+  .column {
+    flex-grow: 1;
+    text-align: center;
+    background-color: lightblue;
+    height: 400px;
+    margin: 8px;
+    font-size: 30pt;
+    line-height: 100px;
+  }
+  .flex-container2 {
+    display: flex;
+    border: 2px solid;
+    padding: 150px;
+
+  }
+  .box {
+    background-color: lightblue;
+    text-align: center;
+    flex-grow: 1;
+    margin: 8px;
+    font-size: 30pt;
+    line-height: 100px;
+  }
+</style>
+<body>
+  <div class="flex-container">
+    <div class="column">Kolumna 1</div>
+    <div class="column">Kolumna 2</div>
+    <div class="column">Kolumna 3</div>
+  </div>
+  <hr>
+  <div class="flex-container2">
+    <div class="box">Element 1</div>
+    <div class="box">Element 2</div>
+    <div class="box">Element 3</div>
+  </div>
+</body>
+</html>

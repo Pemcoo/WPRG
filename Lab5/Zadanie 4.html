@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie3</title>
+  <style>
+        .header1 {
+            display: flex;
+        
+            
+        }
+        .header2 {
+            display: inline;
+            display: flex;
+            
+        }
+        .HeaderDiv {
+            background-color: lightgray;
+            flex-grow: 1;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }  
+        .link {
+            text-decoration: none;
+            color: black;
+        }
+        .black-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 8px;
+            height: 100%;
+            background-color: black;
+        }
+        .ramka {
+            border: 2px solid;      
+        }
+        .ustawienie {
+            flex-grow: 1;
+            margin: 10px;
+        }
+        .rozmiar1 {
+            width: 300px;
+        }
+        .rozmiar2 {
+            height: 253px;
+        }
+        .margin {
+            margin-left: 10px;
+        }
+        h1 {
+            margin-left: 10px;
+        }
+        h2 {
+            margin-left: 10px;
+        }
+        p {
+            margin-left: 10px;
+        }
+  </style>
+</head>
+<body>
+    
+    <div class="header1">
+        <div class="black-bar"></div>
+        <div class="HeaderDiv"><a class="link" href="#">Strona główna</a></div>
+        <div class="HeaderDiv"><a class="link" href="#">O nas</a></div>
+        <div class="HeaderDiv"><a class="link"  href="#">Kontakt</a></div>
+    </div>
+    <div class="header2">
+        <div class="ustawienie">
+            <div class="ustawienie rozmiar1 margin">
+                <h1>Witaj na naszej skomplikowanej stronie!</h1>
+            </div>
+        </div>
+        <div class="ustawienie">
+            <div class="header2 ">
+                <div class="ramka ustawienie tekst">
+                    <h1>Funkcja 1</h1>
+                    <p>Opis funkcji 1...</p>
+                </div>
+                <div class="ramka ustawienie tekst">
+                    <h1>Funkcja 2</h1>
+                    <p>Opis funkcji 2...</p>
+                </div>
+            </div>
+            <div class="ramka ustawienie tekst">       
+                <h1>Funkcja 3</h1>
+                <p>Opis funkcji 3...</p>      
+            </div>
+        </div>
+        <div class="ustawienie">
+            <div class="ustawienie">
+                <div class="ramka rozmiar2 tekst">
+                    <h2>Dodatkowe informacje</h2>
+                    <p>...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<div class="header1">
+    <div class="HeaderDiv"> &#169; 2023 Skomplikowana strona z flexboxem. Wszelkie prawa zastrzeżone.</div>
+</div>
+</html>

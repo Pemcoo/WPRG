@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie3</title>
+  <style>
+        .row {
+            display: flex;
+            padding: 10px;
+            height: 70px;
+            
+        }
+        .equal-width {
+            background-color: lightblue;
+            flex-grow: 1;
+            margin: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .row2 {
+            display: flex;
+            padding: 10px;
+            height: 70px;
+        }
+        .fixed-percentage {
+            width: 40%;
+            background-color: lightblue;
+            margin: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .flexible {
+            width: 60%;
+            background-color: lightblue;
+            margin: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+  </style>
+</head>
+<body>
+    <div class="row">
+        <div class="equal-width">Element 1</div>
+        <div class="equal-width">Element 2</div>
+        <div class="equal-width">Element 3</div>
+    </div>
+    <div class="row2">
+        <div class="fixed-percentage">Element 4</div>
+        <div class="flexible">Element 5</div>
+    </div>
+</body>
+</html>
